@@ -1,0 +1,124 @@
+.related-wrapper {
+  padding-top: 48px;
+  padding-bottom: 64px;
+  margin-top: 96px;
+  background-color: var(--light-gray-color);
+}
+
+.related-title {
+  margin: 20px 0 40px;
+  font-size: 14px;
+  color: var(--secondary-text-color);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.gh-container {
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+  .hero-section-title {
+      display: flex;
+      margin-top: 30px;
+      align-items: center;
+      flex-direction: column;
+      gap: 10px;
+    }
+    @media (max-width: 450px) {
+      .hero-section-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        text-align: center;
+      }
+    }
+  
+    .gh-info {
+      font-weight: 500;
+      color: black;
+    }
+    .gh-available {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-weight: bold;
+      color: rgb(231, 111, 12);
+      font-size: 20px;
+    }
+    .available{
+      font-weight: 500;
+    }
+    .dot{
+      color: rgb(231, 111, 12);
+      font-size: 36px;
+    }
+    .call-info {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+   @media (max-width: 450px) {
+      .call-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+      }
+    }
+    .who-am {
+      width: 275px;
+      height: 41px;
+      border: 1px solid #008cb4;
+      border-radius: 37px;
+      background-color: #008cb4;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+    .have-call {
+      width: 275px;
+      height: 41px;
+      border: 1px solid #008cb4;
+      border-radius: 37px;
+      color: #008cb4;
+      font-weight: bold;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+   
+    .sticker-img{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 65px;
+    } 
+    .dropdown{
+        padding: 30px;
+      display: flex;
+      font-weight: bold;
+      gap: 10px;
+    }
+  
+   
+        .gh-copyright{
+            word-wrap: break-word;
+            width:100%;
+            padding: 20px;
+
+        }
+      
+       
